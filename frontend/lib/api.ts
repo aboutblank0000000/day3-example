@@ -2,7 +2,7 @@
 // ทุก function throw error ถ้า status ไม่ใช่ 2xx → ให้ TanStack จัด error state
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:3000'
-
+//blghgighj
 export type Major = {
   id: string
   name: string

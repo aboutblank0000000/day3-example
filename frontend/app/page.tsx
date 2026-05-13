@@ -17,6 +17,11 @@ export default function Home() {
             → หน้า /useeffect-demo (useEffect + cleanup)
           </Link>
         </li>
+        <li>
+          <Link href="https://www.instagram.com/_aktmwyy/" className="text-blue-600 hover:underline">
+            → IG Kittamet Aut (กดติดตามด้วย)
+          </Link>
+        </li>
       </ul>
     </main>
   )

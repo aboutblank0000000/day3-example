@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"fmt"
 	"log"
 	"os"
 
@@ -14,6 +15,8 @@ import (
 )
 
 func main() {
+	hello := "hllc"
+	fmt.Print(hello)
 	_ = godotenv.Load()
 
 	db, err := database.Connect(context.Background())

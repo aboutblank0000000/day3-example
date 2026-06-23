@@ -36,7 +36,7 @@ export default function UseEffectDemo() {
         <h2 className="font-semibold">1. Timer (interval)</h2>
         <p className="text-2xl font-mono">{count}s</p>
         <p className="text-sm text-slate-500">
-          ใช้ useEffect เพราะต้อง subscribe กับ setInterval · มี cleanup
+          ใช้ useEffect เพราะต้อง subscribe กับ setInterval · มี cleanup 
         </p>
       </section>
 
@@ -53,7 +53,7 @@ export default function UseEffectDemo() {
         <ul className="space-y-1 list-disc list-inside">
           <li>fetch data → ใช้ <code className="bg-white px-1 rounded">useQuery</code> ของ TanStack</li>
           <li>คำนวณค่าจาก state → ใช้ตัวแปรเฉย ๆ (derived value)</li>
-          <li>ตอบสนอง user click → ใส่ logic ใน event handler</li>
+          <li>ตอบสนอง user click → ใส่ logic ใน event handler TT</li>
         </ul>
       </section>
     </main>
